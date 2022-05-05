@@ -4,7 +4,7 @@ export interface ImageProps {
     preview?: boolean;
     className?: string;
     downloadable?: boolean;
-    style?: string;
+    style?: object;
     imageStyle?: string;
     imageClassName?: string;
     template?: any;
